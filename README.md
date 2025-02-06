@@ -18,7 +18,7 @@ Ce workshop est conçu pour initier les étudiants d'Epitech aux fondamentaux de
 ### Windows
 1. Téléchargez Python depuis [python.org](https://www.python.org/downloads/)
 2. Lancez l'installateur et cochez "Add Python to PATH"
-3. Vérifiez l'installation : `python --version` dans le terminal
+3. Vérifiez l'installation : `python3 --version` dans le terminal
 
 ### macOS
 ```bash
@@ -49,7 +49,8 @@ git clone https://github.com/votre-username/workshop-python-epitech
 cd workshop-python-epitech
 
 # Installer les dépendances
-pip install -r requirements.txt
+# N'oubliez pas de créer un environnement virtuel (cf: Begginer.md)
+pip3 install -r requirements.txt
 ```
 
 ## 🤝 Contribution
@@ -65,4 +66,4 @@ Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de
 
 ## 👥 Contact
 
-Pour toute question, contactez [votre-email@epitech.eu](mailto:votre-email@epitech.eu)
+Pour toute question, contactez [jeremy.delfino@epitech.eu](mailto:jeremy.delfino@epitech.eu)
